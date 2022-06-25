@@ -103,7 +103,6 @@ Resources:
     
       ImageId: ami-06610e9213d9a7b6b
       IamInstanceProfile: !Ref ProfileWithRolesForOurApp
-      KeyName: UdacityProject
       SecurityGroups:
       - Ref: WebServerSecGroup
       InstanceType: t3.small
