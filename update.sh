@@ -1,0 +1,1 @@
+aws cloudformation update-stack --stack-name ServerTemplate --template-body file://servers-template.yml  --parameters file://server-template-parameters.json --region=us-east-1 --capabilities CAPABILITY_NAMED_IAM
